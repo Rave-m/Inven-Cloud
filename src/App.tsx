@@ -1,12 +1,25 @@
+import About from './components/About';
+import Center from './components/Centers';
+import FAQ from './components/FAQ';
+import Feature from './components/Feature';
+import Home from './components/Home';
+import Footer from './components/layout/Footer';
+import Header from './components/layout/Header';
+import Price from './components/Price';
+import Review from './components/Review';
+
 function App() {
 	return (
 		<>
-			<div>
-				<h1 className='text-3xl font-bold underline'>Hello world!</h1>
-				<h1>Welcome to the React App</h1>
-				<p>This is a simple React application.</p>
-				<p>Feel free to explore and modify the code!</p>
-			</div>
+			<Header />
+			<Home />
+			<About />
+			<Feature />
+			<Price />
+			<Review />
+			<Center />
+			<FAQ />
+			<Footer />
 		</>
 	);
 }

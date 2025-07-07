@@ -1,1 +1,11 @@
 @import 'tailwindcss';
+
+/* Smooth scroll behavior */
+html {
+	scroll-behavior: smooth;
+}
+
+/* Optional: Offset for fixed header */
+section {
+	scroll-margin-top: 5rem;
+}
